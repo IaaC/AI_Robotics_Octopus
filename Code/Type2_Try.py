@@ -9,7 +9,7 @@ class ShapeCarvingEnv(gym.Env):
     def __init__(self, width=200, height=200):
         super().__init__()
         self.width, self.height = width, height
-        self.grid_size = 10  # Size of each carving box
+        self.grid_size = 50  # Size of each carving box
         self.grid_width = width // self.grid_size
         self.grid_height = height // self.grid_size
 
